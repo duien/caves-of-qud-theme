@@ -121,7 +121,7 @@
   (org-block-begin-line (:foreground dark-gray))
   (org-block-end-line (:inherit 'org-block-begin-line))
   (org-ellipsis (:inherit 'shadow :background viridian :underline nil))
-  (org-headline-todo (:weight 'reset :slant 'reset))
+  (org-headline-todo (:weight 'reset :slant 'reset :foreground lighter-gray))
   (org-headline-done (:inherit '(italic) :weight 'reset :foreground dark-gray))
   (org-todo (:foreground viridian :background dark-gray :inherit 'bold))
   (org-done (:foreground dark-gray :background deepest :weight 'reset))
