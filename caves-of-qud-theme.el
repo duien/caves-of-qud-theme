@@ -106,6 +106,11 @@
   ;; Vue/MMM
   (mmm-default-submode-face (:background 'unspecified))
 
+  ;; Nano Modeline
+  (nano-modeline-active-status-** (:background yellow :inherit nano-modeline-active))
+  (nano-modeline-active-status-RO (:background crimson :inherit nano-modeline-active))
+  (nano-modeline-active-status-RW (:background dark-cyan :inherit nano-modeline-active))
+
   ;; Org-Mode
   (org-document-title (:foreground white :height 1.25))
   (org-level-1 (:foreground white :background darker-gray :extend t :inherit 'bold :height 1.125))
@@ -129,8 +134,6 @@
   (org-superstar-leading (:foreground darker-gray))
   (org-superstar-header-bullet (:weight 'reset))
   ))
-
-;; (setq header-line-format "header")
 
 ;;;###autoload
 (and load-file-name
