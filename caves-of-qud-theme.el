@@ -118,6 +118,7 @@
   (org-level-7 (:inherit 'org-level-2))
   (org-level-8 (:inherit 'org-level-2))
   (org-block (:background deepest))
+  (org-hide (:foreground viridian))
   (org-block-begin-line (:foreground dark-gray))
   (org-block-end-line (:inherit 'org-block-begin-line))
   (org-ellipsis (:inherit 'shadow :background viridian :underline nil :weight 'normal)) ;; TODO weight
