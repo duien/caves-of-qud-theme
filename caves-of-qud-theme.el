@@ -120,13 +120,13 @@
   (org-block (:background deepest))
   (org-block-begin-line (:foreground dark-gray))
   (org-block-end-line (:inherit 'org-block-begin-line))
-  (org-ellipsis (:inherit 'shadow :background viridian :underline nil :weight 'reset))
+  (org-ellipsis (:inherit 'shadow :background viridian :underline nil :weight 'normal)) ;; TODO weight
   (org-headline-todo (:weight 'reset :slant 'reset :foreground lighter-gray))
   (org-headline-done (:inherit '(italic) :weight 'reset :foreground dark-gray))
   (org-todo (:foreground viridian :background dark-gray :inherit 'bold))
   (org-done (:foreground dark-gray :background deepest :weight 'reset))
   (org-superstar-leading (:foreground darker-gray))
-  (org-superstar-header-bullet (:weight 'normal)) ;; TODO weight
+  (org-superstar-header-bullet (:weight 'reset))
   ))
 
 ;; (setq header-line-format "header")
