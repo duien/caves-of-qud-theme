@@ -107,9 +107,9 @@
   (mmm-default-submode-face (:background 'unspecified))
 
   ;; Nano Modeline
-  (nano-modeline-active-status-** (:background yellow :inherit nano-modeline-active))
-  (nano-modeline-active-status-RO (:background crimson :inherit nano-modeline-active))
-  (nano-modeline-active-status-RW (:background dark-cyan :inherit nano-modeline-active))
+  (nano-modeline-active-status-** (:background yellow :inherit 'nano-modeline-active))
+  (nano-modeline-active-status-RO (:background crimson :inherit 'nano-modeline-active))
+  (nano-modeline-active-status-RW (:background dark-cyan :inherit 'nano-modeline-active))
 
   ;; Org-Mode
   (org-document-title (:foreground white :height 1.25))
