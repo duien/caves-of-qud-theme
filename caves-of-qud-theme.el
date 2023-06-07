@@ -78,6 +78,7 @@
   (fringe (:inherit 'default))
   (vertical-border (:foreground dark-gray))
   (internal-border (:background deepest))
+  (fill-column-indicator (:foreground darker-gray))
 
   ;;; Font Lock Faces
   (font-lock-comment-face (:foreground dark-cyan :slant 'italic))
