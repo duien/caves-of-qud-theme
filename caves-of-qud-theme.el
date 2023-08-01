@@ -66,8 +66,8 @@
   (mode-line-highlight (:inverse-video t))
   (header-line (:background darker-gray))
   ;; tab-bar
-  (tab-bar (:background deepest :foreground dark-cyan))
-  (tab-bar-tab (:foreground light-gray :background viridian :overline scarlet))
+  (tab-bar (:background deepest :foreground darker-gray))
+  (tab-bar-tab (:foreground light-gray :background darker-gray))
   (tab-bar-tab-inactive (:inherit 'tab-tar))
   ;; line numbers
   (line-number (:foreground darker-gray))
