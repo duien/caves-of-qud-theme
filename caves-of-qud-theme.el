@@ -135,6 +135,25 @@
   (org-superstar-leading (:foreground darker-gray))
   (org-superstar-header-bullet (:weight 'reset))
 
+  ;; Terminal
+  (ansi-color-red (:foreground crimson :background crimson))
+  (ansi-color-blue (:foreground dark-blue :background dark-blue))
+  (ansi-color-cyan (:foreground dark-cyan :background dark-cyan))
+  (ansi-color-black (:foreground darker-gray :background darker-gray))
+  (ansi-color-green (:foreground dark-green :background dark-green))
+  (ansi-color-white (:foreground lighter-gray :background lighter-gray))
+  (ansi-color-yellow (:foreground brown :background brown))
+  (ansi-color-magenta (:foreground purple :background purple))
+
+  (ansi-color-bright-red (:foreground scarlet :background scarlet))
+  (ansi-color-bright-blue (:foreground blue :background blue))
+  (ansi-color-bright-cyan (:foreground cyan :background cyan))
+  (ansi-color-bright-black (:foreground dark-gray :background dark-gray))
+  (ansi-color-bright-green (:foreground green :background green))
+  (ansi-color-bright-white (:foreground white :background white))
+  (ansi-color-bright-yellow (:foreground yellow :background yellow))
+  (ansi-color-bright-magenta (:foreground magenta :background magenta))
+
   ;; Magit
   ;; (magit-blame-date nil)
   ;; (magit-blame-name nil)
