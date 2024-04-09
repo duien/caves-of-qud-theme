@@ -134,6 +134,7 @@
   (org-done (:foreground dark-gray :background deepest :weight 'reset))
   (org-superstar-leading (:foreground darker-gray))
   (org-superstar-header-bullet (:weight 'reset))
+  (org-tag (:foreground brown))
 
   ;; Terminal
   (ansi-color-red (:foreground crimson :background crimson))
