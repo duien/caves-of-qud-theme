@@ -86,10 +86,10 @@
   (font-lock-string-face (:foreground green :slant 'italic))
   (font-lock-keyword-face (:foreground persimmon))
   (font-lock-builtin-face (:foreground brown))
-  (font-lock-constant-face (:foreground yellow))
+  (font-lock-constant-face (:foreground cyan))
   (font-lock-function-name-face (:foreground magenta))
   (font-lock-variable-name-face (:foreground blue))
-  (font-lock-type-face (:foreground cyan))
+  (font-lock-type-face (:foreground yellow))
 
   ;;; Basic Faces
   (highlight (:background dark-blue))
