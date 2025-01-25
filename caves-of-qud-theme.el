@@ -62,6 +62,7 @@
 
   ;; mode line
   (mode-line (:background dark-gray :foreground viridian))
+  (mode-line-active (:inherit 'mode-line))
   (mode-line-inactive (:background deepest :foreground darker-gray))
   (mode-line-highlight (:inverse-video t))
   (header-line (:background darker-gray))
